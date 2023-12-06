@@ -1,8 +1,10 @@
 #include<stdio.h>
 int main()
 {
-	int i=0;
-	while(i<5)
+	int i=1,n;
+	printf("Input the value of n:");
+	scanf("%d",&n);
+	while(i<=n)
 	{
 		printf("\n%d",i);
 		i++;
